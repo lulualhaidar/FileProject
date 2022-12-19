@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HomeScreen implements Screen{
 
     private String welcomeText = "Welcome to VirtualKey!";
+    private String name = "Lulwah Hasan";
 
     private ArrayList<String> options = new ArrayList<>();
 
@@ -17,7 +18,9 @@ public class HomeScreen implements Screen{
 
     public void introHS() {
         System.out.println(welcomeText);
+        System.out.println(name);
         System.out.println("\n");
+
         Show();
     }
 
